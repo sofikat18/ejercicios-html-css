@@ -1,0 +1,32 @@
+.cajas {
+  max-width: 900px;
+  height: 600px;
+  background-color: lightgray;
+  margin: 0 auto;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.roja {
+  background-color: red;
+  align-self: baseline;
+  justify-self: baseline;
+}
+
+.verde {
+  background-color: lightgreen;
+}
+
+.azul {
+  background-color: lightblue;
+  align-self: flex-end;
+}
